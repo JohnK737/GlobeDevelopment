@@ -1,0 +1,26 @@
+{
+	"name": "GlobeDevelopment-ESX-Snippets",
+	"description": "Snippet base on ESX official Docs and Globe's ESX additionals",
+	"version": "1.5.1",
+	"publisher": "GlobeDevelopment",
+	"icon": "images/logo.png",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.36.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "lua",
+				"path": "./snippets/lua.json"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/javascript.json"
+			}
+		]
+	}
+}
